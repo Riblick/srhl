@@ -1,0 +1,448 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    color: #e3e6e9;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+
+    margin: 0;
+}
+
+body {
+
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article > * + * {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+
+}
+
+textarea {
+
+    resize: none;
+    overflow: hidden;
+
+}
+
+
+.un {
+    width: 100%;
+    color: white;
+    height: auto;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+
+
+    text-align: left;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.un-comment {
+    width: 100%;
+    color: white;
+    height: auto;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: none;
+    padding: 10px 20px;
+    border: none;
+
+    outline: none;
+    box-sizing: border-box;
+
+
+    text-align: left;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.un-form-text {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+
+
+    text-align: left;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: #17191f;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+}
+
+.container {
+
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #22242b;
+    padding: 5px 0 5px 0;
+}
+
+.header-container {
+
+    max-width: 1240px;
+
+    margin: 0 auto 0 auto;
+}
+
+
+p {
+    margin-bottom: 10px;
+}
+
+
+.body-info-forum {
+
+    width: 100%;
+    min-height: calc(100vh - 105px);
+    background-color: #17191f;
+}
+
+.body-info-container {
+    max-width: 1240px;
+    padding: 25px 0 25px 0;
+    height: 100%;
+    margin: 0 auto 0 auto;
+
+
+}
+
+.rdel-apl-text {
+    padding: 16px 5px 16px 10px;
+    width: 100%;
+    background-color: #3f424a;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 10px;
+    letter-spacing: 1.2px;
+    text-overflow: ellipsis;
+
+
+}
+
+.submit {
+
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: rgba(136, 126, 126, 0.04);
+    margin-top: 10px;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+
+    font-weight: 700;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.04);
+}
+
+.submit-delete {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.opacity-50 {
+    opacity: 50%;
+}
+
+.bc-none {
+    cursor: pointer;
+    background: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.body-content-box {
+
+    background-color: #22242b;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 10px;
+
+    height: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 30px;
+}
+
+.body-content {
+    height: 100%;
+}
+
+.rdel-apl-content {
+    vertical-align: middle;
+    height: auto;
+    padding: 10px;
+}
+
+.rdel-apl-content-form {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.strin-white {
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.link-rdel-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 15px 0 15px 0;
+}
+
+
+.descrip-link-rdel {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+
+
+}
+
+.information-descrip {
+    display: flex;
+    margin-left: auto;
+    float: right;
+}
+
+.content-centre {
+    text-align: center;
+    padding-left: 3px;
+    line-height: 15px;
+    font-size: 13px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.content-left {
+    display: inline-block;
+    text-align: left;
+    padding-left: 3px;
+    line-height: 15px;
+    font-size: 13px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.info-tem-count {
+    display: inline-block;
+}
+
+.info-mes-count {
+    display: inline-block;
+}
+
+.author-descrip {
+    display: inline-block;
+
+
+}
+
+.logo-link-rdel {
+    display: inline-block;
+    height: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.float-right {
+    float: right;
+    margin-left: auto;
+}
+
+.footer {
+
+    width: 100%;
+    height: 45px;
+    background-color: #22242b;
+}
+
+.footer-container {
+    max-width: 1240px;
+    padding-top: 10px;
+    margin: 0 auto 0 auto;
+}
+
+.logo-main {
+    padding-top: 4px;
+    display: inline-block;
+    float: left;
+}
+
+.SRHL {
+    display: inline-block;
+}
+
+.nav-forum {
+    display: inline-block;
+    padding: 13px 0 0 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inl {
+
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.logo-main {
+    display: inline-block;
+}
+
+.profile {
+
+    display: inline-block;
+    float: right;
+
+    padding-top: 13px;
+}
+
+.forum_commect {
+    width: 100%;
+    color: white;
+    height: auto;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media only screen and (max-width: 1240px) {
+    .header {
+        padding: 0 10px 0 10px;
+    }
+
+    .footer-container {
+        padding: 10px 10px 10px 10px;
+    }
+}
